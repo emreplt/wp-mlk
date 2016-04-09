@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 prototype
 production
 node_modules
@@ -5,8 +6,14 @@ bower_components
 
 sources
 resimler
-wp-data
-wp-www
+wp-data*
+wp-www*
+.bundle
+assets
+lang
+lib
+templates
+
 
 # Logs
 logs
@@ -66,3 +73,11 @@ Temporary Items
 .apdisk
 
 # EMREPLT'S MAC ######################################################
+=======
+# Include your project-specific ignores in this file
+# Read about how to use .gitignore: https://help.github.com/articles/ignoring-files
+dist
+bower_components
+node_modules
+npm-debug.log
+>>>>>>> 1b9c0a3398b2cfc99b107aea8470cc8bb98f4254

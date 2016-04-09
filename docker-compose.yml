@@ -8,6 +8,7 @@ wordpress:
     - /Users/emreplt/emlak/wp-www:/var/www/html
   ports:
     - 8080:80
+    - 9000:9000
 db:
   # image: mysql
   build: images/db
